@@ -7,62 +7,60 @@
     <title>Montacargas CARU</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <nav id="navbar">
         <img src="src/logo.png" alt="">
-        <div class="tabs">
-            <div class="tab-item" onclick="window.location='index.html'">
+        <ul class="tabs">
+            <li class="tab-item" onclick="window.location='index.html'">
                 INICIO
-            </div>
-            <div class="tab-item" onclick="window.location='contacto.html'">
+            </li>
+            <li class="tab-item" onclick="window.location='servicios.html'">
                 SERVICIOS
-            </div>
-            <div class="tab-item" onclick="window.location='contacto.html'">
+            </li>
+            <li class="tab-item" onclick="window.location='nosotros.html'">
                 NOSOTROS
-            </div>
-            <div class="tab-item" onclick="window.location='contacto.html'">
+            </li>
+            <li class="tab-item" onclick="window.location='contacto.html'">
                 CONTACTO
-            </div>
-        </div>
-
-
+            </li>
+        </ul>
     </nav>
-    <div class="main">
-        <div class="banner">
-            <div class="banner-left">
-                <div class="banner-texts animate__animated animate__fadeInUp">
-                    <h1>
-                        MONTACARGAS <br>EN RENTA
-                    </h1>
-                    <p>Servicios profesionales de mantenimiento y arrendamiento profesional de maquinaria pesada. 
-                        Operamos en Tampico, Madero y Altamira.</p>
-                    <div class="contact-button" onclick="window.location='contacto.html'">
-                        Contactanos <i class='bx bx-right-arrow-alt'></i>
-                    </div>
+
+    <header class="banner">
+        <div class="banner-left">
+            <div class="banner-texts animate__animated animate__fadeInUp">
+                <h1>
+                    MONTACARGAS <br>EN RENTA
+                </h1>
+                <p>Servicios profesionales de mantenimiento y arrendamiento profesional de maquinaria pesada.
+                    Operamos en Tampico, Madero y Altamira.</p>
+                <div class="contact-button" onclick="window.location='contacto.html'">
+                    Contactanos <i class='bx bx-right-arrow-alt'></i>
                 </div>
             </div>
-            <img src="src/maquinariafondo.jpg" alt="" class="animate__animated animate__fadeInRight">
         </div>
+        <img src="src/maquinariafondo.png" alt="" class="animate__animated animate__fadeInRight">
+    </header>
 
-        <div class="content">
+    <main class="main">
+        <section class="content">
             <h4>- Nuestros Servicios</h4>
             <h2 class="header2">Soluciones Confiables <br> en Maquinaria Pesada.</h2>
             <div class="services-info">
-                <p class="paragraph">Contamos con servicio de <strong>arrendamiento</strong> de montacargas con equipos confiables y 
-                listos para trabajar, ideales para todo tipo de proyectos. Además, contamos con un servicio e
-                specializado de <strong>mantenimiento</strong> preventivo y correctivo, asegurando el óptimo funcionamiento de tus equipos.</p>
+                <p class="paragraph">Contamos con servicio de <strong>arrendamiento</strong> de montacargas con equipos
+                    confiables y
+                    listos para trabajar, ideales para todo tipo de proyectos. Además, contamos con un servicio e
+                    specializado de <strong>mantenimiento</strong> preventivo y correctivo, asegurando el óptimo
+                    funcionamiento de tus equipos.</p>
 
                 <div class="button">
                     Conoce mas <i class='bx bx-plus'></i>
                 </div>
             </div>
-            
+
             <div class="services">
                 <div class="service-elem animate__animated" id="elem1">
                     <img src="src/montacargas.png" alt="">
@@ -74,9 +72,9 @@
                 </div>
                 <div class="service-elem animate__animated delay-04s" id="elem2">
                     <img src="src/montacargas.png" alt="">
-                    <h3>Retroexcavadora</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nihil nisi inventore  sapiente quod ipsum doloremque, iste</p>
+                    <h3>Minicargador</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nihil nisi inventore sapiente quod ipsum doloremque, iste</p>
                     <div class="more-btn">
                         Conocer Mas<i class='bx bx-right-arrow-alt'></i>
                     </div>
@@ -84,42 +82,94 @@
                 <div class="service-elem animate__animated delay-08s" id="elem3">
                     <img src="src/montacargas.png" alt="">
                     <h3>Manipulador Telescópico</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Nihil nisi inventore cumque numquam, facilis  sapiente quod ipsum doloremque, iste</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nihil nisi inventore cumque numquam, facilis sapiente quod ipsum doloremque, iste</p>
                     <div class="more-btn">
                         Conocer Mas<i class='bx bx-right-arrow-alt'></i>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="aboutus">
+        </section>
+
+        <section class="aboutus">
             <img src="src/aboutus.jpg" alt="" width="45%" style="object-fit:cover;">
-            <div class="aboutus-right">
+            <article class="aboutus-right">
                 <h4>Nuestra Historia -</h4>
                 <h2 class="header2">
                     Acerca de Nosotros
                 </h2>
-                <p class="paragraph" style="width: 70%; margin-left: auto;">Fundada desde hace más de 15 años, 
-                    CARU nace de la necesidad de alcanzar la excelencia mediante un ambicioso liderazgo ejemplar. 
-                    Desde los primeros días, hemos dejado en claro con nuestro destacable trabajo que somos su mejor opción.</p>
+                <p class="paragraph" style="width: 70%; margin-left: auto;">Fundada desde hace más de 15 años,
+                    CARU nace de la necesidad de alcanzar la excelencia mediante un ambicioso liderazgo ejemplar.
+                    Desde los primeros días, hemos dejado en claro con nuestro destacable trabajo que somos su mejor
+                    opción.</p>
                 <p class="paragraph" style="width: 70%; margin-left: auto;">
-                    Nuestra <strong>misión</strong> es destacarnos como el servicio líder en renta de maquinaria pesada en la zona conurbada, 
-                    a través de un firme compromiso con la excelencia en el trabajo y la satisfacción total de nuestros clientes.
+                    Nuestra <strong>misión</strong> es destacarnos como el servicio líder en renta de maquinaria pesada
+                    en la zona conurbada,
+                    a través de un firme compromiso con la excelencia en el trabajo y la satisfacción total de nuestros
+                    clientes.
                 </p>
                 <div class="more-btn">
                     Leer Mas<i class='bx bx-right-arrow-alt'></i>
                 </div>
-            </div>
-        </div>    
-        <div class="contactus">
-            
-        </div> 
-        
+            </article>
+        </section>
 
-    </div>
+        <section class="contactus">
+            <h4>- Ponte en Contacto</h4>
+            <h2 class="header2">
+                Contacta con Nosotros
+            </h2>
+            <div class="contact-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d922.7012592262857!2d-97.8711191!3d22.323212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f957beef7549%3A0x1cc48889bfa41a85!2s5a.%20Avenida%20221%2C%20Villa%20Hermosa%2C%2089319%20Tampico%2C%20Tamps.!5e0!3m2!1ses!2smx!4v1752345057608!5m2!1ses!2smx"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="" class="index-form">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-title">
+                                Nombre
+                            </div>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="form-field">
+                            <div class="form-title">
+                                Apellidos
+                            </div>
+                            <input type="text" placeholder="Apellidos">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-title">
+                                Correo
+                            </div>
+                            <input type="text" placeholder="Correo">
+                        </div>
+                        <div class="form-field">
+                            <div class="form-title">
+                                Teléfono
+                            </div>
+                            <input type="text" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <div class="form-title">
+                        Mensaje
+                    </div>
+                    <textarea name="" id="" placeholder="Escríbenos un mensaje o una pregunta"></textarea>
+                    <div id="form-btn">
+                        Enviar
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+
+    </main>
 
     <footer>
-            © 2025 Montacargas CARU. Todos los derechos reservados.
+        © 2025 Montacargas CARU. Todos los derechos reservados.
     </footer>
 
 </body>
