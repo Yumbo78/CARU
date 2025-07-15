@@ -425,23 +425,18 @@ textarea:focus {
 
 
 
-
-.contact-methods {
+/*SERVICES*/
+.services-container {
     display: flex;
-    width: 100%;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
 }
-
-.contact-elem {
-    background-color: var(--blue);
-    flex-grow: 1;
+.service{
+    display: flex;
 }
 
-.contact-elem i {
-    color: var(--yellow);
 
-}
 
 footer {
     background-color: var(--blue);
