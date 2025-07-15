@@ -7,55 +7,99 @@
     <title>Montacargas CARU</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <script src="https://kit.fontawesome.com/11955708c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <nav id="navbar">
         <img src="src/logo.png" alt="">
-        <div class="tabs">
-            <div class="tab-item" onclick="window.location='index.html'">
+        <ul class="tabs">
+            <li class="tab-item" onclick="window.location='index.html'">
                 INICIO
-            </div>
-            <div class="tab-item">
+            </li>
+            <li class="tab-item" onclick="window.location='servicios.html'">
                 SERVICIOS
-            </div>
-            <div class="tab-item">
+            </li>
+            <li class="tab-item" onclick="window.location='nosotros.html'">
                 NOSOTROS
-            </div>
-            <div class="tab-item">
+            </li>
+            <li class="tab-item" onclick="window.location='contacto.html'">
                 CONTACTO
-            </div>
-        </div>
-
-
+            </li>
+        </ul>
     </nav>
-    <div class="main">
-        <div class="title-container">
-            <div class="title-texts">
-                <h1>CONTACTO</h1>
-                <p>- Contacta con nosotos -</p>
-            </div>
-        </div>
-        <div class="contact-methods">
-            <div class="contact-elem">
-                <i class="fa-brands fa-whatsapp"></i>
-            </div>
-            <div class="contact-elem">
-                <i class='bx bx-envelope' ></i>
-            </div>
-            <div class="contact-elem">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
-            
 
+    <header class="header">
+        <img src="src/workers.jpg" alt="" >
+        <div class="top-headings">
+            <h4 class="heading4">- Contacta con Nosotros -</h4>
+            <h1 class="heading1" >
+                Contacto
+            </h1>
         </div>
+    </header>
 
-    </div>
+    <main class="main">
+        <section class="contactus">
+            <h4>- Ponte en Contacto</h4>
+            <h2 class="header2">
+                Contacta con Nosotros
+            </h2>
+            <div class="contact-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d922.7012592262857!2d-97.8711191!3d22.323212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f957beef7549%3A0x1cc48889bfa41a85!2s5a.%20Avenida%20221%2C%20Villa%20Hermosa%2C%2089319%20Tampico%2C%20Tamps.!5e0!3m2!1ses!2smx!4v1752345057608!5m2!1ses!2smx"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="" class="index-form">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-title">
+                                Nombre
+                            </div>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="form-field">
+                            <div class="form-title">
+                                Apellidos
+                            </div>
+                            <input type="text" placeholder="Apellidos">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <div class="form-title">
+                                Correo
+                            </div>
+                            <input type="text" placeholder="Correo">
+                        </div>
+                        <div class="form-field">
+                            <div class="form-title">
+                                Teléfono
+                            </div>
+                            <input type="text" placeholder="Teléfono">
+                        </div>
+                    </div>
+                    <div class="form-title">
+                        Mensaje
+                    </div>
+                    <textarea name="" id="" placeholder="Escríbenos un mensaje o una pregunta"></textarea>
+                    <div id="form-btn">
+                        Enviar
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        © 2025 Montacargas CARU. Todos los derechos reservados.
+    </footer>
 
 </body>
+
+<script src="script.js"></script>
 
 </html>
