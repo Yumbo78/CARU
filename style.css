@@ -4,7 +4,7 @@
     --blue: rgb(2, 25, 91);
     --yellow: rgb(255, 190, 0);
     --darkyellow: rgb(255, 149, 0);
-    --lightgray: rgb(233, 233, 233);
+    --lightgray: rgb(240, 240, 240);
     --darkgray: rgb(82, 82, 82);
 }
 
@@ -427,13 +427,31 @@ textarea:focus {
 
 /*SERVICES*/
 .services-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    width: 1100px;
+    margin: 100px auto;
 }
-.service{
+.main-service, .service{
     display: flex;
+    background-color: var(--lightgray);
+    gap: 20px;
+    padding: 1rem;
+    margin-bottom: 20px;
+
+}
+.main-service img {
+    width: 500px;
+    object-fit: cover;
+}
+.service img{
+    width: 200px;
+    object-fit: cover;
+}
+.service-title {
+    font-size: 1.5rem;
+}
+.service-row {
+    display: flex;
+    gap: 20px;
 }
 
 
