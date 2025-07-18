@@ -54,6 +54,7 @@ body {
     letter-spacing: 2px;
     transition: all 0.2s;
     list-style: none;
+    font-size: clamp(10px, 1.5vw, 1rem);
 }
 
 .tab-item:hover {
@@ -512,6 +513,16 @@ footer {
     #navbar {
         justify-content: center;
         margin: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+    .tabs {
+        padding: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+    .tab-item{
     }
 
     .banner{
@@ -536,9 +547,7 @@ footer {
         padding: 0;
     }
 
-    .tabs {
-        display: none;
-    }
+    
 
     .aboutus {
         width: 80%;
