@@ -508,10 +508,14 @@ footer {
 
 @media (max-width: 1024px) {
 
-    /*media queries*/
+    /*PESTAÑA DE INICIO*/
     #navbar {
         justify-content: center;
         margin: 0;
+    }
+
+    .banner{
+        padding: 0;
     }
 
     .banner-texts {
@@ -568,5 +572,44 @@ footer {
     .form-row{
         flex-direction: column;
     }
+
+
+
+/*PESTAÑA DE SERVICIOS*/
+    .services-container{
+        width: 100%;
+        padding: 1rem;
+    }
+    .main-service{
+        flex-direction: column;
+    }
+    .main-service img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.service-row {
+    flex-direction: column;
+}
+.service{
+    flex-direction: column;
+    width: 100%;
+}
+.service img {
+    width: 100%;
+}
+.other-services{
+    flex-wrap: wrap;
+}
+.small-service {
+    width: 40%;
+    flex-grow: 1;
+}
+.other-services img {
+    width: 100%;
+}
+.small-service .service-title{
+    font-size: 1rem;
+}
 
 }
