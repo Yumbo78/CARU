@@ -203,6 +203,8 @@ strong {
     visibility: hidden;
     padding: 30px;
     flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
 }
 .service-elem:hover img{
     transform: scale(1.04);
@@ -233,6 +235,8 @@ strong {
     justify-content: end;
     align-items: center;
     cursor: pointer;
+    flex-grow: 1;
+    vertical-align: bottom;
 }
 
 .more-btn:hover {
