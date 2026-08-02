@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montacargas CARU</title>
+    <title>Renta de Montacargas en Tampico, Madero y Altamira | Montacargas CARU</title>
+    <meta name="description" content="Renta y mantenimiento de montacargas, minicargadores y maquinaria pesada en Tampico, Madero y Altamira. Más de 15 años de experiencia. Cotiza hoy.">
+    <link rel="canonical" href="https://montacargascaru.mx/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Montacargas CARU">
+    <meta property="og:title" content="Renta de Montacargas en Tampico, Madero y Altamira | Montacargas CARU">
+    <meta property="og:description" content="Renta y mantenimiento de montacargas, minicargadores y maquinaria pesada en Tampico, Madero y Altamira. Más de 15 años de experiencia.">
+    <meta property="og:url" content="https://montacargascaru.mx/">
+    <meta property="og:image" content="https://montacargascaru.mx/src/maquinariafondo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Renta de Montacargas en Tampico, Madero y Altamira | Montacargas CARU">
+    <meta name="twitter:description" content="Renta y mantenimiento de montacargas, minicargadores y maquinaria pesada en Tampico, Madero y Altamira.">
+    <meta name="twitter:image" content="https://montacargascaru.mx/src/maquinariafondo.png">
+    <link rel="icon" type="image/png" href="src/logo.png">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Montacargas CARU",
+        "image": "https://montacargascaru.mx/src/logo.png",
+        "url": "https://montacargascaru.mx/",
+        "description": "Renta y mantenimiento de montacargas, minicargadores y maquinaria pesada en Tampico, Madero y Altamira.",
+        "areaServed": ["Tampico", "Ciudad Madero", "Altamira"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tampico",
+            "addressRegion": "Tamaulipas",
+            "addressCountry": "MX"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 22.321251529198864,
+            "longitude": -97.87048041713872
+        }
+    }
+    </script>
 </head>
 
 <body>
-    <nav id="navbar">
-        <img src="src/logo.png" alt="">
+    <nav id="navbar" aria-label="Principal">
+        <a href="index.html"><img src="src/logo.png" alt="Montacargas CARU"></a>
         <ul class="tabs">
-            <li class="tab-item" onclick="window.location='index.html'">
-                INICIO
-            </li>
-            <li class="tab-item" onclick="window.location='servicios.html'">
-                SERVICIOS
-            </li>
-            <li class="tab-item" onclick="window.location='nosotros.html'">
-                NOSOTROS
-            </li>
-            <li class="tab-item" onclick="window.location='contacto.html'">
-                CONTACTO
-            </li>
+            <li class="tab-item"><a href="index.html">INICIO</a></li>
+            <li class="tab-item"><a href="servicios.html">SERVICIOS</a></li>
+            <li class="tab-item"><a href="nosotros.html">NOSOTROS</a></li>
+            <li class="tab-item"><a href="contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
 
@@ -37,17 +65,17 @@
                 </h1>
                 <p>Servicios profesionales de mantenimiento y arrendamiento de maquinaria pesada.
                     Operamos en Tampico, Madero y Altamira.</p>
-                <div class="contact-button" onclick="window.location='contacto.html'">
+                <a href="contacto.html" class="contact-button">
                     Contactanos <i class='bx bx-right-arrow-alt'></i>
-                </div>
+                </a>
             </div>
         </div>
-        <img src="src/maquinariafondo.png" alt="" class="animate__animated animate__fadeInRight">
+        <img src="src/maquinariafondo.png" alt="Maquinaria pesada y montacargas en renta" class="animate__animated animate__fadeInRight">
     </header>
 
     <main class="main">
         <section class="content">
-            <h4>- Nuestros Servicios</h4>
+            <p class="eyebrow">- Nuestros Servicios</p>
             <h2 class="header2">Soluciones Confiables <br> en Maquinaria Pesada.</h2>
             <div class="services-info">
                 <p class="paragraph">Contamos con servicio de <strong>arrendamiento</strong> de montacargas con equipos
@@ -55,43 +83,43 @@
                     listos para trabajar, ideales para todo tipo de proyectos. Además, contamos con un servicio especializado de <strong>mantenimiento</strong> preventivo y correctivo, asegurando el óptimo
                     funcionamiento de tus equipos.</p>
 
-                <div class="button" onclick="window.location='servicios.html'">
+                <a href="servicios.html" class="button">
                     Conoce Más <i class='bx bx-plus'></i>
-                </div>
+                </a>
             </div>
 
             <div class="services">
                 <div class="service-elem animate__animated" id="elem1">
-                    <img src="src/montacargas.png" alt="">
+                    <img src="src/montacargas.png" alt="Montacargas en renta">
                     <h3>Montacargas</h3>
                     <p>Servicio profesional de montacargas, diseñado para soportar cargas de hasta 15 mil libras.</p>
-                    <div class="more-btn" onclick="window.location='servicios.html'">
+                    <a href="servicios.html" class="more-btn">
                         Conocer Más<i class='bx bx-right-arrow-alt'></i>
-                    </div>
+                    </a>
                 </div>
                 <div class="service-elem animate__animated delay-04s" id="elem2">
-                    <img src="src/minicargador.png" alt="">
+                    <img src="src/minicargador.png" alt="Minicargador en renta">
                     <h3>Minicargador</h3>
                     <p>Arrendamiento de los mejores modelos de minicargador del mercado.</p>
-                    <div class="more-btn" onclick="window.location='servicios.html'">
+                    <a href="servicios.html" class="more-btn">
                         Conocer Más<i class='bx bx-right-arrow-alt'></i>
-                    </div>
+                    </a>
                 </div>
                 <div class="service-elem animate__animated delay-08s" id="elem3">
-                    <img src="src/manipteles.png" alt="">
+                    <img src="src/manipteles.png" alt="Manipulador telescópico en renta">
                     <h3>Manipulador Telescópico</h3>
                     <p>Alcanza hasta 20 metros de altura con nuestro manipulador telescópico.</p>
-                    <div class="more-btn" onclick="window.location='servicios.html'">
+                    <a href="servicios.html" class="more-btn">
                         Conocer Más<i class='bx bx-right-arrow-alt'></i>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
 
         <section class="aboutus">
-            <img src="src/aboutus.jpg" alt="" width="45%" style="object-fit:cover;">
+            <img src="src/aboutus.jpg" alt="Instalaciones de Montacargas CARU" width="45%" style="object-fit:cover;">
             <article class="aboutus-right">
-                <h4>Nuestra Historia -</h4>
+                <p class="eyebrow">Nuestra Historia -</p>
                 <h2 class="header2">
                     Acerca de Nosotros
                 </h2>
@@ -105,58 +133,59 @@
                     a través de un firme compromiso con la excelencia en el trabajo y la satisfacción total de nuestros
                     clientes.
                 </p>
-                <div class="more-btn" onclick="window.location='nosotros.html'">
+                <a href="nosotros.html" class="more-btn">
                     Leer Más<i class='bx bx-right-arrow-alt'></i>
-                </div>
+                </a>
             </article>
         </section>
 
         <section class="contactus">
-            <h4>- Ponte en Contacto</h4>
+            <p class="eyebrow">- Ponte en Contacto</p>
             <h2 class="header2">
                 Contacta con Nosotros
             </h2>
             <div class="contact-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d230.67855553875958!2d-97.87048041713872!3d22.321251529198864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f95820a2699d%3A0x465f1ac64865498!2sMontacargas%20CARU!5e0!3m2!1ses!2smx!4v1784606379617!5m2!1ses!2smx"
+                    title="Ubicación de Montacargas CARU en Google Maps"
                     style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <form action="" class="index-form">
                     <div class="form-row">
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="nombre">
                                 Nombre
-                            </div>
-                            <input type="text" placeholder="Nombre">
+                            </label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre" autocomplete="given-name" required>
                         </div>
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="apellidos">
                                 Apellidos
-                            </div>
-                            <input type="text" placeholder="Apellidos">
+                            </label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" autocomplete="family-name" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="correo">
                                 Correo
-                            </div>
-                            <input type="text" placeholder="Correo">
+                            </label>
+                            <input type="email" id="correo" name="correo" placeholder="Correo" autocomplete="email" required>
                         </div>
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="telefono">
                                 Teléfono
-                            </div>
-                            <input type="text" placeholder="Teléfono">
+                            </label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" autocomplete="tel" required>
                         </div>
                     </div>
-                    <div class="form-title">
+                    <label class="form-title" for="mensaje">
                         Mensaje
-                    </div>
-                    <textarea name="" id="" placeholder="Escríbenos un mensaje o una pregunta"></textarea>
-                    <div id="form-btn">
+                    </label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escríbenos un mensaje o una pregunta" required></textarea>
+                    <button type="submit" id="form-btn">
                         Enviar
-                    </div>
+                    </button>
                 </form>
 
             </div>

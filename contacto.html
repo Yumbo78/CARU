@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montacargas CARU</title>
+    <title>Contacto | Montacargas CARU</title>
+    <meta name="description" content="Ponte en contacto con Montacargas CARU para cotizar renta de montacargas y maquinaria pesada en Tampico, Madero y Altamira.">
+    <link rel="canonical" href="https://montacargascaru.mx/contacto.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="Montacargas CARU">
+    <meta property="og:title" content="Contacto | Montacargas CARU">
+    <meta property="og:description" content="Ponte en contacto con Montacargas CARU para cotizar renta de montacargas y maquinaria pesada en Tampico, Madero y Altamira.">
+    <meta property="og:url" content="https://montacargascaru.mx/contacto.html">
+    <meta property="og:image" content="https://montacargascaru.mx/src/contactofondo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contacto | Montacargas CARU">
+    <meta name="twitter:description" content="Ponte en contacto con Montacargas CARU para cotizar renta de montacargas y maquinaria pesada.">
+    <meta name="twitter:image" content="https://montacargascaru.mx/src/contactofondo.jpg">
+    <link rel="icon" type="image/png" href="src/logo.png">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <nav id="navbar">
-        <img src="src/logo.png" alt="">
+    <nav id="navbar" aria-label="Principal">
+        <a href="index.html"><img src="src/logo.png" alt="Montacargas CARU"></a>
         <ul class="tabs">
-            <li class="tab-item" onclick="window.location='index.html'">
-                INICIO
-            </li>
-            <li class="tab-item" onclick="window.location='servicios.html'">
-                SERVICIOS
-            </li>
-            <li class="tab-item" onclick="window.location='nosotros.html'">
-                NOSOTROS
-            </li>
-            <li class="tab-item" onclick="window.location='contacto.html'">
-                CONTACTO
-            </li>
+            <li class="tab-item"><a href="index.html">INICIO</a></li>
+            <li class="tab-item"><a href="servicios.html">SERVICIOS</a></li>
+            <li class="tab-item"><a href="nosotros.html">NOSOTROS</a></li>
+            <li class="tab-item"><a href="contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
 
     <header class="header">
-        <img src="src/contactofondo.jpg" alt="" >
+        <img src="src/contactofondo.jpg" alt="Contacto Montacargas CARU">
         <div class="top-headings">
-            <h4 class="heading4">- Contacta con Nosotros -</h4>
+            <p class="heading4">- Contacta con Nosotros -</p>
             <h1 class="heading1" >
                 Contacto
             </h1>
@@ -41,51 +47,52 @@
 
     <main class="main">
         <section class="contactus">
-            <h4>- Estamos para Servirte</h4>
+            <p class="eyebrow">- Estamos para Servirte</p>
             <h2 class="header2">
                 Contacta con Nosotros
             </h2>
             <div class="contact-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d230.67855553875958!2d-97.87048041713872!3d22.321251529198864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f95820a2699d%3A0x465f1ac64865498!2sMontacargas%20CARU!5e0!3m2!1ses!2smx!4v1784606379617!5m2!1ses!2smx"
+                    title="Ubicación de Montacargas CARU en Google Maps"
                     style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <form action="" class="index-form">
                     <div class="form-row">
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="nombre">
                                 Nombre
-                            </div>
-                            <input type="text" placeholder="Nombre">
+                            </label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre" autocomplete="given-name" required>
                         </div>
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="apellidos">
                                 Apellidos
-                            </div>
-                            <input type="text" placeholder="Apellidos">
+                            </label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" autocomplete="family-name" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="correo">
                                 Correo
-                            </div>
-                            <input type="text" placeholder="Correo">
+                            </label>
+                            <input type="email" id="correo" name="correo" placeholder="Correo" autocomplete="email" required>
                         </div>
                         <div class="form-field">
-                            <div class="form-title">
+                            <label class="form-title" for="telefono">
                                 Teléfono
-                            </div>
-                            <input type="text" placeholder="Teléfono">
+                            </label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" autocomplete="tel" required>
                         </div>
                     </div>
-                    <div class="form-title">
+                    <label class="form-title" for="mensaje">
                         Mensaje
-                    </div>
-                    <textarea name="" id="" placeholder="Escríbenos un mensaje o una pregunta"></textarea>
-                    <div id="form-btn">
+                    </label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escríbenos un mensaje o una pregunta" required></textarea>
+                    <button type="submit" id="form-btn">
                         Enviar
-                    </div>
+                    </button>
                 </form>
 
             </div>
